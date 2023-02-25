@@ -15,7 +15,7 @@ Flashcards::~Flashcards(){
 
 void Flashcards::MainMenu(){
     //Menu to navigate the flashcards application
-    int menuChoice;
+    int menuChoice = 0;
     cout << "Time to Study!" << endl;
     while(menuChoice != 4){
         cout << "1. Show all decks" << endl;
