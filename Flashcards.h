@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <vector>
-#include "Deck.H"
+#include "Deck.h"
 using namespace std;
 
 class Flashcards{
