@@ -4,7 +4,7 @@ int main(){
     string name = "";
     cout << "Welcome to flashcards!" << endl;
     cout << "What is your name: ";
-    cin >> name;
+    getline(cin, name);
     cout << "Hello " << name << endl;
     Flashcards new_flashcards = Flashcards(name);
     new_flashcards.MainMenu();
