@@ -46,7 +46,7 @@ void Flashcards::InsertDeck(){
     Deck* newDeck = new Deck(subject);
     m_decks.push_back(newDeck);
     cout << endl;
-    cout << "New deck " << newDeck->GetSubject() << "added." << endl;
+    cout << "New deck " << newDeck->GetSubject() << " added." << endl;
 }
 
 void Flashcards::DisplayDecks(){
@@ -73,7 +73,7 @@ void Flashcards::Study(){
         cout << "Would you like to add a new card or answer some?" << endl;
         cout << "1. add card" << endl;
         cout << "2. Answer" << endl;
-        cout << "3. Display all Questions in the deck" << endl;
+        cout << "3. Display all questions in the deck" << endl;
         cout << "4. Go back" << endl;
         cout << "Enter Choice (1-4): ";
         cin >> choice;
