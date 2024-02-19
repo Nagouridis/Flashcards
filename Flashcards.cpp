@@ -71,7 +71,7 @@ void Flashcards::Study(){
     int choice;
     while(choice != 4){
         cout << "Would you like to add a new card or answer some?" << endl;
-        cout << "1. add card" << endl;
+        cout << "1. Add card" << endl;
         cout << "2. Answer" << endl;
         cout << "3. Display all questions in the deck" << endl;
         cout << "4. Go back" << endl;

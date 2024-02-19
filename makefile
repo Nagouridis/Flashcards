@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -Wall -g
 
 main: Flashcards.o Deck.o Cards.o main.cpp 
-	$(CXX) $(CXXFLAGS) Flashcards.o Cards.o Deck.o main.cpp -o main
+	$(CXX) $(CXXFLAGS) Flashcards.o Cards.o Deck.o main.cpp -o main.exe
 
 Navigator.o: Deck.o Cards.o Flashcards.h Flashcards.cpp
 	$(CXX) $(CXXFLAGS) -c Flashcards.cpp
